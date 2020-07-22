@@ -26,7 +26,7 @@ This is demo(soon)
   - [ ] Log in with Social
   - [ ] Profile
 - Video
-  - [ ] Video upload
+  - [x] Video upload
   - [ ] Video recording
   - [ ] Search
   - [ ] Comment
@@ -36,5 +36,6 @@ This is demo(soon)
 ### 3. What i use
 
 **Vanilla Javascript(ES6)** + Node JS + Express + MongoDB + etc...
+
 
 ***** Branch release
