@@ -7,6 +7,7 @@ export const home = async (req, res) => {
     const videos = await Video.find({});
     res.render("home", { pageTitle: "Home", videos });
   } catch (error) {
+
     res.render("home", { pageTitle: "Home", videos: [] });
   }
 };
@@ -78,3 +79,4 @@ export const deleteVideo = async (req, res) => {
     res.redirect(routes.home);
   }
 };
+

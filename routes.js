@@ -15,6 +15,7 @@ const HOME = "/",
   EDIT_VIDEO = "/:id/edit",
   DELETE_VIDEO = "/:id/delete";
 
+
 const routes = {
   home: HOME,
   join: JOIN,
