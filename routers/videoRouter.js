@@ -6,6 +6,7 @@ import {
   postUpload,
   getEditVideo,
   postEditVideo,
+  deleteVideo,
 } from "../controllers/videoController";
 import { uploadVideo } from "../middlewares";
 
@@ -19,6 +20,6 @@ videoRouter.get(routes.detailVideo(), detailVideo);
 // video edit
 videoRouter.get(routes.editVideo(), getEditVideo);
 videoRouter.post(routes.editVideo(), postEditVideo);
-// videoRouter.get(routes.deleteVideo, deleteVideo);
+videoRouter.get(routes.deleteVideo(), deleteVideo);
 
 export default videoRouter;

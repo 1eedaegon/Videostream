@@ -29,6 +29,7 @@ This is demo(soon)
   - [x] Video detail 
   - [x] Video upload 
   - [x] Video edit 
+  - [x] Video delete
   - [ ] Video recording
   - [ ] Search
   - [ ] Comment
