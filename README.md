@@ -26,7 +26,9 @@ This is demo(soon)
   - [ ] Log in with Social
   - [ ] Profile
 - Video
-  - [x] Video upload
+  - [x] Video detail 
+  - [x] Video upload 
+  - [x] Video edit 
   - [ ] Video recording
   - [ ] Search
   - [ ] Comment
