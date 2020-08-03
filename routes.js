@@ -12,7 +12,9 @@ const HOME = "/",
   VIDEOS = "/videos",
   UPLOAD = "/upload",
   DETAIL_VIDEO = "/:id",
-  EDIT_VIDEO = "/:id/edit-video";
+  EDIT_VIDEO = "/:id/edit",
+  DELETE_VIDEO = "/:id/delete";
+
 
 const routes = {
   home: HOME,
@@ -38,7 +40,20 @@ const routes = {
       return DETAIL_VIDEO;
     }
   },
-  editVideo: EDIT_VIDEO,
+  editVideo: (id) => {
+    if (id) {
+      return `/videos/${id}/edit`;
+    } else {
+      return EDIT_VIDEO;
+    }
+  },
+  deleteVideo: (id) => {
+    if (id) {
+      return `/videos/${id}/delete`;
+    } else {
+      return DELETE_VIDEO;
+    }
+  },
 };
 
 export default routes;

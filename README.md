@@ -26,10 +26,13 @@ This is demo(soon)
   - [ ] Log in with Social
   - [ ] Profile
 - Video
+
+  - [x] Video detail 
+  - [x] Video upload 
+  - [x] Video edit 
+  - [x] Video delete
   - [x] Video upload
-  - [ ] Video recording
-  - [ ] Search
-  - [ ] Comment
+
 
 
 
@@ -38,4 +41,3 @@ This is demo(soon)
 **Vanilla Javascript(ES6)** + Node JS + Express + MongoDB + etc...
 
 
-***** Branch release
