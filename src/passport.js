@@ -14,7 +14,7 @@ passport.use(
   new GithubStrategy({
     clientID: process.env.GH_ID,
     clientSecret: process.env.GH_SECRET,
-    callbackURL: `http://localhost:4000${routes.githubCallback}`,
+    callbackURL: `${process.env.HOST_URL}${routes.githubCallback}`,
   },
   githubLoginCallback),
 );
@@ -23,7 +23,7 @@ passport.use(
   new FacebookStrategy({
     clientID: process.env.FB_ID,
     clientSecret: process.env.FB_SECRET,
-    callbackURL: `https://ancient-skunk-64.serverless.social${routes.facebookCallback}`,
+    callbackURL: `${process.env.HOST_URL}${routes.facebookCallback}`,
     profileFields: ['id', 'displayName', 'photos', 'email'],
     scope: ['public_profile', 'email'],
   },
@@ -34,7 +34,7 @@ passport.use(
   new KakaoStrategy({
     clientID: process.env.KAKAO_ID,
     clientSecret: process.env.KAKAO_SECRET,
-    callbackURL: `http://localhost:4000${routes.kakaoCallback}`,
+    callbackURL: `${process.env.HOST_URL}${routes.kakaoCallback}`,
   },
   kakaoLoginCallback),
 );
