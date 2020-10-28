@@ -14,7 +14,7 @@ passport.use(
   new GithubStrategy({
     clientID: process.env.GH_ID,
     clientSecret: process.env.GH_SECRET,
-    callbackURL: `${process.env.HOST_URL}${routes.githubCallback}`,
+    callbackURL: `${process.env.PRODUCTION ? process.env.HOST_URL : 'http://localhost:4000'}${routes.githubCallback}`,
   },
   githubLoginCallback),
 );
@@ -23,7 +23,7 @@ passport.use(
   new FacebookStrategy({
     clientID: process.env.FB_ID,
     clientSecret: process.env.FB_SECRET,
-    callbackURL: `${process.env.HOST_URL}${routes.facebookCallback}`,
+    callbackURL: `${process.env.PRODUCTION ? process.env.HOST_URL : 'http://localhost:4000'}${routes.facebookCallback}`,
     profileFields: ['id', 'displayName', 'photos', 'email'],
     scope: ['public_profile', 'email'],
   },
@@ -34,7 +34,7 @@ passport.use(
   new KakaoStrategy({
     clientID: process.env.KAKAO_ID,
     clientSecret: process.env.KAKAO_SECRET,
-    callbackURL: `${process.env.HOST_URL}${routes.kakaoCallback}`,
+    callbackURL: `${process.env.PRODUCTION ? process.env.HOST_URL : 'http://localhost:4000'}${routes.kakaoCallback}`,
   },
   kakaoLoginCallback),
 );

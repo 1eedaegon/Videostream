@@ -8,6 +8,7 @@ import passport from 'passport';
 import mongoose from 'mongoose';
 import session from 'express-session';
 import MongoStore from 'connect-mongo';
+import flash from 'express-flash';
 
 import './passport';
 import { localsMiddleware } from './middlewares';
@@ -46,9 +47,12 @@ app.use(
     store: new CookieStore({ mongooseConnection: mongoose.connection }),
   }),
 );
+
 // User Authentication
 app.use(passport.initialize());
 app.use(passport.session());
+// Flash message
+app.use(flash());
 
 // Local middleware(Custom middleware)
 app.use(localsMiddleware);
