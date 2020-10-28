@@ -1,9 +1,11 @@
+# Static file (Webpack)
+static/
 
 # Swap file on *nix
 *.swp
 
-# Sample files
-uploads
+# Video files
+uploads/
 
 # Logs
 logs
