@@ -26,10 +26,13 @@ This is demo(soon)
   - [ ] Log in with Social
   - [ ] Profile
 - Video
-  - [ ] Video upload
-  - [ ] Video recording
-  - [ ] Search
-  - [ ] Comment
+  - [x] Detail 
+  - [x] Upload 
+  - [x] Edit 
+  - [x] Delete 
+  - [x] Recording 
+  - [x] Search
+  - [ ] Comment 
 
 
 
