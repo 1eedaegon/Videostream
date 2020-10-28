@@ -1,5 +1,5 @@
 # Static file (Webpack)
-static/
+# static/
 
 # Swap file on *nix
 *.swp

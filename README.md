@@ -30,8 +30,8 @@ This is demo(soon)
   - [x] Upload 
   - [x] Edit 
   - [x] Delete 
-  - [ ] Recording 
-  - [ ] Search
+  - [x] Recording 
+  - [x] Search
   - [ ] Comment 
 
 
