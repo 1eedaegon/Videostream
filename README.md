@@ -20,11 +20,11 @@ This is demo(soon)
 ### 2. Features
 
 - Authentication
-  - [ ] Sign in
-  - [ ] Sign in with Social 
-  - [ ] Log in
-  - [ ] Log in with Social
-  - [ ] Profile
+  - [x] Sign in
+  - [x] Sign in with Social 
+  - [x] Log in
+  - [x] Log in with Social
+  - [x] Profile
 - Video
   - [x] Detail 
   - [x] Upload 
@@ -32,7 +32,7 @@ This is demo(soon)
   - [x] Delete 
   - [x] Recording 
   - [x] Search
-  - [ ] Comment 
+  - [x] Comment 
 
 
 
