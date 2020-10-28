@@ -3,6 +3,7 @@ mixin videoBlock(video={})
         a(href=routes.detailVideo(video.id))
             video.videoBlock__thumbnail
                 source(src=video.videoFile, type='video/mp4')
+                source(src=video.videoFile, type='video/webm')
                 source(src=video.videoFile, type='video/*')
                 //- source(src=`/${video.videoFile}`, type='video/mp4')
             h4.videoBlock__title=video.title
