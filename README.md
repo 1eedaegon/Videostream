@@ -5,7 +5,7 @@ What a crazy hack day with Javascript
 
 ## Demo
 
-This is demo(soon)
+[This is demo(soon)](https://whispering-beach-53890.herokuapp.com)
 
 
 
@@ -40,4 +40,11 @@ This is demo(soon)
 
 **Vanilla Javascript(ES6)** + Node JS + Express + MongoDB + etc...
 
-***** Branch master
+Node.js + Express => Heroku
+MongoDB => Mongo atlas
+File storage => Azure blob storage
+Login => Github / Facebook / Kakao
+Comment => Realtime Fake(browser) + Lazy update DB(MongoDB)
+
+Fully vanilla JS, It's too hard
+Just keep going 
