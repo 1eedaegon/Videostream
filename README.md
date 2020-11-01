@@ -40,11 +40,17 @@ What a crazy hack day with Javascript
 
 **Vanilla Javascript(ES6)** + Node JS + Express + MongoDB + etc...
 
+
 Node.js + Express => Heroku
+
 MongoDB => Mongo atlas
+
 File storage => Azure blob storage
+
 Login => Github / Facebook / Kakao
+
 Comment => Realtime Fake(browser) + Lazy update DB(MongoDB)
+
 
 Fully vanilla JS, It's too hard
 Just keep going 
